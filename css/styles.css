@@ -1,6 +1,27 @@
 body {
     font-family: "Montserrat", sans-serif;
     background: #fff;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+
+/* Heading */
+.big-heading {
+    font-family: "Montserrat-Extra-Bold", sans-serif;
+    font-size: 3.6rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Section Heading */
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 #title {
@@ -11,35 +32,16 @@ body {
     padding: 3% 15% 7%;
 }
 
-h1 {
-    font-family: "Montserrat-Extra-Bold", sans-serif;
-    font-size: 3.6rem;
-    line-height: 1.5;
-    font-weight: bold;
-    color: #f9f9f9;
-}
-
-h2 {
-    font-family: "Montserrat-Bold", sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.6;
-}
-
-h3 {
-    font-family: "Montserrat-Bold", sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 20px auto;
-    text-align: center;
-}
-
 .features-logo {
     color: #ef8172;
     font-size: 4rem;
     width: 100%;
-    /* padding-left: 40%; */
-    text-align: center;
+}
+
+/* Feature Section */
+.feature-title {
+    font-size: 1.5rem;
+    margin: 20px 0;
 }
 
 .features-logo:hover {
@@ -49,7 +51,6 @@ h3 {
 .features-description {
     color: #8f8f8f;
     margin: 0 auto 100px;
-    text-align: center;
 }
 
 #features {
@@ -92,13 +93,18 @@ h3 {
 
 /* Testimonial Sections */
 #testimonials {
-    text-align: center;
     background: #ef8172;
     color: #fff;
 }
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -110,7 +116,6 @@ h3 {
 /* Press section */
 #press {
     background: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -122,7 +127,10 @@ h3 {
 /* Pricing Section */
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
 }
 
 .pricing-column {
@@ -144,22 +152,14 @@ h3 {
 /* Call to Action Section */
 #cta {
     background: #ff4c68;
-    text-align: center;
-    padding: 7% 0;
-}
-
-.cta-heading {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #fff;
-    width: 60%;
+    padding: 7% 15%;
 }
 
 .cta-button {
     margin-top: 2rem;
 }
 
-@media(max-width: 870px) {
+@media (max-width: 870px) {
     .cta-heading {
         font-size: 3rem;
         font-weight: bold;
@@ -171,10 +171,9 @@ h3 {
 /* Footer Section */
 
 #footer {
-    text-align: center;
     padding: 7%;
 }
 
 .footer-logo {
-    margin:0 0.7rem 1rem;
+    margin: 0 0.7rem 1rem;
 }

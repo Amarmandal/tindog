@@ -8,6 +8,45 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold", sans-serif;
 }
 
+/* Container section */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Section */
+
+.colored-section {
+    background: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background: #fff;
+}
+
+/* Navigation bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light", sans-serif;
+    padding: 0 18px;
+}
+
+/* Title section */ /*target container-fluid class whose parent is title */
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
+}
 
 /* Heading */
 .big-heading {
@@ -24,24 +63,22 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
-#title {
-    background: #ff4c68;
+
+/* Feature Section */
+#features {
+    margin: 0 100px;
+    position: relative;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
+.feature-title {
+    font-size: 1.5rem;
+    margin: 20px 0;
 }
 
 .features-logo {
     color: #ef8172;
     font-size: 4rem;
     width: 100%;
-}
-
-/* Feature Section */
-.feature-title {
-    font-size: 1.5rem;
-    margin: 20px 0;
 }
 
 .features-logo:hover {
@@ -51,30 +88,6 @@ h1, h2, h3, h4, h5, h6 {
 .features-description {
     color: #8f8f8f;
     margin: 0 auto 100px;
-}
-
-#features {
-    margin: 0 100px;
-    position: relative;
-    background: #fff;
-    padding-top: 160px;
-    padding-bottom: 100px;
-}
-
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.navbar {
-    padding: 0 0 4.5rem;
-}
-
-.nav-item {
-    font-size: 1.2rem;
-    font-family: "Montserrat-Light", sans-serif;
-    padding: 0 18px;
 }
 
 /* Download Button */
@@ -94,11 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Testimonial Sections */
 #testimonials {
     background: #ef8172;
-    color: #fff;
-}
-
-.carousel-item {
-    padding: 7% 15%;
 }
 
 .testimonial-text {
@@ -137,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 2%;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 993px) {
     #title {
         text-align: center;
     }
@@ -150,11 +158,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Call to Action Section */
-#cta {
-    background: #ff4c68;
-    padding: 7% 15%;
-}
-
 .cta-button {
     margin-top: 2rem;
 }
@@ -169,10 +172,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Footer Section */
-
-#footer {
-    padding: 7%;
-}
 
 .footer-logo {
     margin: 0 0.7rem 1rem;
